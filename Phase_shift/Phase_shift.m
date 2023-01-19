@@ -149,4 +149,4 @@ end
 close(gcf);
 close(h)
 
-writematrix(rez,'phase shift.txt');
+writematrix(rez,'results.txt');

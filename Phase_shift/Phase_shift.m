@@ -20,10 +20,10 @@ yl2 = 1350;
 xp1 = 940;
 xp2 = 1650;
 
-offs1(n_line) = zeros;% offset for the first line
-offs2(n_line) = zeros;% offset for the first line
-amp1(n_line) = zeros;% amplitude for the first line
-amp2(n_line) = zeros;% amplitude for the first line
+offs1(n_line) = zeros; % offset for the first line
+offs2(n_line) = zeros; % offset for the first line
+amp1(n_line) = zeros; % amplitude for the first line
+amp2(n_line) = zeros; % amplitude for the first line
 f1(n_line) = zeros; % freq for the first line
 f2(n_line) = zeros; % freq for the second line
 phi1(n_line) = zeros; % phase for the first line
@@ -70,8 +70,8 @@ for avg = 1:mes
             xpos2 = [x2(1)+dx, x2(1)+dx];
            
             % Intensity distributions
-            y_el = improfile(I, xpos1, yline); %modified zone
-            y_ref = improfile(I, xpos2, yline); %unmodified zone
+            y_el = improfile(I, xpos1, yline); % modified zone
+            y_ref = improfile(I, xpos2, yline); % unmodified zone
         
             y1 = y_el';
             y2 = y_ref';

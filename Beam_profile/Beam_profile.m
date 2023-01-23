@@ -7,7 +7,7 @@ close all;
 % Parameters
 NA = 0.1;
 mgnf = 4;
-lens = 100; % lens used in measurement (mm)
+lens = 100; % used lens (mm)
 mgf = mgnf*lens/180;
 
 % Camera parameters
@@ -109,19 +109,18 @@ set(cbr, 'xtick',linspace (0, 1, 6)) % colorbar ticks range
 tix0 = get(cbr,'xtick')';
 set(cbr, 'xticklabel',num2str(tix0,'%.1f')) % decimal place
 caxis([0 1]);
-
 xlabel(cbr,'\itIntensity', 'Rotation',0.0, 'FontSize',13, 'Position',[0.5, -1.3, 0])
+
 xlabel('\itz, \rmmm', 'FontSize',13, 'Position',[10, 1.1, 0])
 xticks([0 5 10 15 20])
 set(gca, 'xaxisLocation','top')
 set(gca, 'FontSize',13, 'TickDir','out')
 
 if C{5} == num2str('um')
-    ylabel('\itx, \rmµm', 'FontSize',13)
+    ylabel('\itx, \rmÂµm', 'FontSize',13)
 else
     ylabel('\itx, \rmmm', 'FontSize',13)
 end
-
 ylim([-0.8 0.8])
 yticks([-0.5 0 0.5])
 tix = get(gca,'ytick')';

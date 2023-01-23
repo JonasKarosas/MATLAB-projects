@@ -3,7 +3,7 @@
 
 The project is about plotting modification axial lengths dependecies (contorus) on laser pulse energy and laser beam focusing deprhs and fitting the results with two-dimensional polinomial. For more details, see 'Description.pdf' file.
 
-In order to run the code 'plots.m', download the files from 'Scanning speeds' folder. Text files containes different modification axial lengths depending on the increasing puslse energy (x axis) and focusing depth (y axis).
+In order to run the code 'plots.m', download the files from 'Scanning speeds' folder. Text files contain different modification axial lengths depending on the increasing puslse energy (x axis) and focusing depth (y axis).
 
 ### MATLAB code:
 1) Pulse energies and focusing depths are upload from files (dowload them) or set manually by arrays. 

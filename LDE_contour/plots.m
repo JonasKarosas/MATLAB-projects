@@ -88,7 +88,7 @@ axis ij
 % parula(default); jet; turbo; hsv; hot; cool; spring; summer; autumn; 
 % winter; gray; bone; copper; pink; lines; colorcube; prism; flag; white
 colormap(turbo);
-xlabel(colorbar('Ticks',v), '\itL \rm(µm)','Rotation',0.0,'FontSize',font, 'Position', [1, -4, 0])
+xlabel(colorbar('Ticks',v), '\itL \rm(Âµm)','Rotation',0.0,'FontSize',font, 'Position', [1, -4, 0])
 caxis([0 max_z]); % Change max_z to draw plots with the same z range
 
 % SAVE

@@ -9,7 +9,7 @@ total_images = numel(images_names);
 
 length = 40; % length in pixels
 n_line = 10; % number of lines
-mes = 1; % number of measurments (only important if auto~=1)
+mes = 1; % number of measurments (only important if auto ~= 1)
 
 auto = 0.5; % automation of line drawing
 % 0 - all lines drawn manually

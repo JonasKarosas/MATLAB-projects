@@ -6,7 +6,7 @@ It applies to the elements made by different methods such photolithography, dire
 The main parts of this technique are image registration with camera and its analysis with MATLAB. For more details, see 'Description.pdf' file.
 
 In order to run the code 'plot.m', download the 'Sample.zip' with the 51 images and one text file. Unzip it. This is the sample of the beam
-intensity distributions in XY plane at different Z position of the positioning stage created by letting HeNe laser through volume Fresnel
+intensity distributions in XY plane at different Z positions of the positioning stage created by letting HeNe laser through volume Fresnel
 lens which was recorder by the femtosecond laser. Text file consists of starting position, step and ending position of the positioning stage.
 
 ### MATLAB code:

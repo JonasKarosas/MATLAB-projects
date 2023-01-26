@@ -18,5 +18,5 @@ In order to run the code 'measurement.m', download 'sineFit' function file. Down
 8) Three plots are created: 
   - first line with sine approximation,
   - second line with sine approximation,
-  - both approximations with avergae amplitude and period.
+  - both approximations with average amplitude and period.
 9) All the phase shifts are saved in 'results.txt' file. Number at the top refers to the measurement number.
